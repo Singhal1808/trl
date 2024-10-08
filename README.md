@@ -29,6 +29,8 @@ The library is built on top of [🤗 Transformers](https://github.com/huggingfac
 
 
 ## Highlights
+- **Versatile Trainers**: Easily apply various fine-tuning methods using built-in trainers like [`SFTTrainer`](https://huggingface.co/docs/trl/sft_trainer), [`DPOTrainer`](https://huggingface.co/docs/trl/dpo_trainer), and more.
+
 
 - **`Efficient and scalable`**: 
     - [🤗 Accelerate](https://github.com/huggingface/accelerate) is the backbone of TRL that models training to scale from a single GPU to a large-scale multi-node cluster with methods such as DDP and DeepSpeed.
